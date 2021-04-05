@@ -1,0 +1,62 @@
+.upload-icon{
+     color: #1E90FF;
+ }
+
+.info-icon{
+    color: #B7B2B3;
+}
+
+.big-green{
+    font-size: 50px;
+    font-weight: bold;
+    color: #00A152;
+}
+
+.salesPanel{
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 4vh;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.row-no-separation{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sales-padding{
+    text-align: start;
+}
+
+.sales-padding:first-child{
+    padding: 2vw 2vw 0 2vw
+}
+.sales-padding:nth-child(2){
+    padding: 2vh 2vw 2vw 2vw
+}
+
+.percentage-section{
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+}
+
+.percentage-section div{
+    flex-grow: 1;
+    text-align: start;
+}
+
+.percentage-element{
+    padding: 2vh 0 2vh 2vw;
+    border-top: 2px solid #F2F2F2;
+}
+
+.percentage-element:first-child{
+    border-right: 2px solid #F2F2F2;
+}

@@ -1,0 +1,38 @@
+.firstLetter{
+    background-color: #FFC732;
+    border-radius: 5px;
+    padding: 2vh;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.name{
+    font-weight: bold;
+}
+
+.SupportPanel{
+    display: flex;
+    flex-direction: column;
+}
+
+.support-content{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.support-details{
+    text-align: start;
+}
+
+.support-details:first-child{
+    margin-bottom: 1vw;
+}
+
+.support-details:nth-child(2){
+    margin: 0 2vw;
+}
+
+.email svg{
+    margin-right: 5px;
+}
