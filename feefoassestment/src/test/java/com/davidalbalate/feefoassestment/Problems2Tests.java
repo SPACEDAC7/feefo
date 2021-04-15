@@ -6,7 +6,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class Problems2Tests {
 
-    public int[] mybigarray = new int[]{ 1,10,3,4,6,5,7,8,9,2};
+    public int[] mybigarray = new int[]{ 1,10,3,3,6,5,7,8,9,3};
     int[] emptyArray = new int[]{ };
 
 
@@ -35,9 +35,9 @@ class Problems2Tests {
 
     @Test
     void test_mode() {
-        double mean = Problem2.median(mybigarray);
+        double mode = Problem2.mode(mybigarray);
 
-        assertEquals(5.5, mean);
+        assertEquals(3, mode);
     }
 
     @Test
@@ -47,9 +47,9 @@ class Problems2Tests {
 
     @Test
     void test_range() {
-        double mean = Problem2.median(mybigarray);
+        double range = Problem2.range(mybigarray);
 
-        assertEquals(5.5, mean);
+        assertEquals(9, range);
     }
 
     @Test
